@@ -42,7 +42,7 @@ $inside-circle-text:#FFFCFC;
     font-weight: bold;
     font-size: 1.563rem;
     font-style: normal;
-    line-height: 3rem;
+    line-height: 2rem;
     color: $text-color;
     border-radius: nullpx;
   }
@@ -107,53 +107,95 @@ $inside-circle-text:#FFFCFC;
 }
 
 .watalogy-services{
+    &__img-path{
+        width: 971.5px;
+        height: 2888.5px;
+    }
     &__header-2{
         @include text-h2;
     }
+    /* --------1------ */
     &__rows-one{
         &__one-jpg-circle{
+            position: relative;
             &__circle-1{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1; 
+                margin-right: 120px; 
+                  
+            }
+            &__jpg-one{
+                width: 153px;
+                height: 110px; 
+                margin-top: 20px;   
             }
         }
         &__text-one{
             &__text-header{
-                @include text-h3(); 
+                @include text-h3();
+                margin-top: 10px; 
+                margin-left: -35px; 
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
+                margin-left: -35px;  
             }
         }
     }
     /* --------2------ */
     &__rows-two{
         &__two-jpg-circle{
+            
             &__circle-2{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1; 
+                margin-right: 120px;    
+            }
+            &__jpg-two{
+                width: 139px;
+                height: 111px;
             }
         }
         &__text-two{
             &__text-header{
-                @include text-h3(); 
+                @include text-h3();
+                margin-left: -25px; 
+                margin-top:15px; 
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
+                margin-left: -25px; 
             }
         }
     }
     /* --------3------ */
     &__rows-three{
+        margin-top: -30px;
         &__three-jpg-circle{
             &__circle-3{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;
+                margin-top:125px;  
+                margin-left:-100px;  
+            }
+            &__jpg-three{
+                width: 167px;
+                height: 219px;
             }
         }
         &__text-three{
+            margin-top:60px;
             &__text-header{
                 @include text-h3(); 
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }
@@ -161,47 +203,80 @@ $inside-circle-text:#FFFCFC;
     &__rows-four{
         &__four-jpg-circle{
             &__circle-4{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;
+                margin-top:90px;  
+                margin-left:150px;    
+            }
+            &__jpg-four{
+                width: 220px;
+                height: 210px;
+                margin-left:-15px; 
             }
         }
         &__text-four{
+            margin-top:80px; 
             &__text-header{
-                @include text-h3(); 
+                @include text-h3();
+                margin-left: 150px; 
             }
             &__text-header-explanation{
-                @include text(); 
+                margin-left: 150px;
+                @include text();
+                margin-top:-15px; 
             }
         }
     }
     /* --------5------ */
     &__rows-five{
+        margin-top: 60px;
         &__five-jpg-circle{
             &__circle-5{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;
+                 
+            }
+            &__jpg-five{
+                width: 183px;
+                height: 153px;
             }
         }
         &__text-five{
+            margin-top:-30px;
             &__text-header{
                 @include text-h3(); 
             }
             &__text-header-explanation{
-                @include text(); 
+                @include text();
+                margin-top:-15px; 
             }
         }
     }
     /* --------6------ */
     &__rows-six{
+        margin-top:80px;
         &__six-jpg-circle{
             &__circle-6{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-six{
+                width: 338px;
+                height: 242px;
+                
             }
         }
         &__text-six{
+            margin-top:70px;
             &__text-header{
                 @include text-h3(); 
             }
             &__text-header-explanation{
-                @include text(); 
+                @include text();
+                margin-top:-15px; 
             }
         }
     }
@@ -209,7 +284,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-seven{
         &__seven-jpg-circle{
             &__circle-7{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-seven{
+                width: 229px;
+                height: 163px;
             }
         }
         &__text-seven{
@@ -218,6 +299,7 @@ $inside-circle-text:#FFFCFC;
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }
@@ -225,7 +307,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-eight{
         &__eight-jpg-circle{
             &__circle-8{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-eight{
+                width: 186px;
+                height: 186px;
             }
         }
         &__text-eight{
@@ -234,6 +322,7 @@ $inside-circle-text:#FFFCFC;
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }
@@ -241,7 +330,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-nine{
         &__nine-jpg-circle{
             &__circle-9{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-nine{
+                width: 212px;
+                height: 170px;
             }
         }
         &__text-nine{
@@ -250,6 +345,7 @@ $inside-circle-text:#FFFCFC;
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }
@@ -257,7 +353,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-ten{
         &__ten-jpg-circle{
             &__circle-10{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-ten{
+                width: 208px;
+                height: 184px;
             }
         }
         &__text-ten{
@@ -265,7 +367,8 @@ $inside-circle-text:#FFFCFC;
                 @include text-h3(); 
             }
             &__text-header-explanation{
-                @include text(); 
+                @include text();
+                margin-top:-15px; 
             }
         }
     }
@@ -273,7 +376,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-eleven{
         &__eleven-jpg-circle{
             &__circle-11{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-eleven{
+                width: 187px;
+                height: 180px;
             }
         }
         &__text-eleven{
@@ -282,6 +391,7 @@ $inside-circle-text:#FFFCFC;
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }
@@ -289,7 +399,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-twelve{
         &__twelve-jpg-circle{
             &__circle-12{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-twelve{
+                width: 284px;
+                height: 140px;
             }
         }
         &__text-twelve{
@@ -298,6 +414,7 @@ $inside-circle-text:#FFFCFC;
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }
@@ -305,7 +422,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-thirteen{
         &__thirteen-jpg-circle{
             &__circle-13{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-thirteen{
+                width: 288px;
+                height: 192px;
             }
         }
         &__text-thirteen{
@@ -314,6 +437,7 @@ $inside-circle-text:#FFFCFC;
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }
@@ -321,7 +445,13 @@ $inside-circle-text:#FFFCFC;
     &__rows-fourteen{
         &__fourteen-jpg-circle{
             &__circle-14{
-                @include circle;    
+                @include circle;
+                position: absolute;
+                z-index: 1;    
+            }
+            &__jpg-fourteen{
+                width: 190px;
+                height: 188px;
             }
         }
         &__text-fourteen{
@@ -330,6 +460,7 @@ $inside-circle-text:#FFFCFC;
             }
             &__text-header-explanation{
                 @include text(); 
+                margin-top:-15px;
             }
         }
     }

@@ -19,6 +19,7 @@
         .container{
             padding-left: 5px !important;
             padding-right: 5px !important;
+           
         }
 
         .path {
@@ -28,12 +29,10 @@
             top: 0;
             bottom: 0;
         }
-        .responsive-img{
-            max-height: 150px;
+       /*  .responsive-img{
             width: 100%;
             height: auto;
-            max-width: 300px;
-        }
+        } */
        /*  @media screen and (max-width: 992px) and (min-width: 768px) {
             .pathimg{
                 height: 1900px;
@@ -80,24 +79,20 @@
             </div>
         </div>
     </div>
-        <!-- todo
-        1. img-fluid tablet için kaldır yeni w-h ver
 
-        -->
-<!-- For desktop -->
     <div class="container watalogy-services" style="position: relative;">
-        <img class="img-fluid d-none d-sm-block path pathimg" src="./images/path.png" alt="">
+            <img class="img-fluid d-none d-sm-block watalogy-services__img-path path pathimg" src="./images/path.png" alt="">
             <div class="row justify-content-center watalogy-services__header-2 mx-5 ">
                 <p>Watalogy ile sağlam adımlarla küresel e-ticaretin parçası olun. <p>
             </div>
-            <!-- NUMBERS -->
+            
             <!-- 1. -->
             <div class="row watalogy-services__rows-one my-5">  
-                <div class="col-md-3  watalogy-services__rows-one__one-jpg-circle">
-                    <div class="watalogy-services__rows-one__one-jpg-circle__circle-1 rounded-circle d-inline-block">1</div>
-                    <img class="watalogy-services__rows-one__one-jpg-circle__jpg responsive-img"  src="./images/potential.png" alt="">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-2  d-flex justify-content-center watalogy-services__rows-one__one-jpg-circle" style="border: 1px solid red;">
+                    <div class="watalogy-services__rows-one__one-jpg-circle__circle-1 rounded-circle ">1</div>
+                    <img class="watalogy-services__rows-one__one-jpg-circle__jpg-one responsive-img"  src="./images/potential.png" alt="">
                 </div>
-                <div class="col-md-9 watalogy-services__rows-one__text-one">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-10 watalogy-services__rows-one__text-one" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-one__text-one__text-header">
                         <p>
                             E-Ticaret Potansiyelinizi ölçün.
@@ -105,7 +100,7 @@
                     </div>
                     <div class="watalogy-services__rows-one__text-one__text-header-explanation">
                         <p>
-                            Küresel pazaryerleri ile çalışmak ve sorunsuz e-ticaret yapabilmek için WEM modeli ile mevcut<br>
+                            Küresel pazaryerleri ile çalışmak ve sorunsuz e-ticaret yapabilmek için WEM modeli ile mevcut
                             durumunuzu analiz eder ve olgunluk seviyenizi ölçer.
                         </p>
                     </div>
@@ -113,12 +108,11 @@
             </div>  
             <!-- 2. -->
             <div class="row watalogy-services__rows-two justify-content-end my-5 "> 
-               
-                <div class="col-md-2  watalogy-services__rows-two__two-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  justify-content-lg-end  watalogy-services__rows-two__two-jpg-circle" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-two__two-jpg-circle__circle-2 rounded-circle d-inline-block">2</div>
-                    <img class="watalogy-services__rows-two__two-jpg-circle__jpg responsive-img"  src="./images/digital-competition.png" alt="">
+                    <img class="watalogy-services__rows-two__two-jpg-circle__jpg-two responsive-img"  src="./images/digital-competition.png" alt="">
                 </div>
-                <div class="col-md-5 watalogy-services__rows-two__text-two">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-two__text-two" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-two__text-two__text-header">
                         <p>
                             Ürünlerinizin dijital rekabet analizini yapalım!
@@ -126,18 +120,19 @@
                     </div>
                     <div class="watalogy-services__rows-two__text-two__text-header-explanation">
                         <p>
-                            Ürünlerinizin hangi ülkelerde ve hangi pazaryerlerinde nasıl <br> satılması gerektiğini ve rekabet stratejinizi belirler.
+                            Ürünlerinizin hangi ülkelerde ve hangi pazaryerlerinde nasıl  
+                            satılması gerektiğini ve rekabet stratejinizi belirler.
                         </p>
                     </div>
                 </div>
             </div>  
             <!-- 3. -->
             <div class="row watalogy-services__rows-three">  
-                <div class="col-md-3  watalogy-services__rows-three__three-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-2 d-flex justify-content-center watalogy-services__rows-three__three-jpg-circle" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-three__three-jpg-circle__circle-3 rounded-circle d-inline-block">3</div>
-                    <img class="watalogy-services__rows-three__three-jpg-circle__jpg responsive-img"  src="./images/development-map.png" alt="">
+                    <img class="watalogy-services__rows-three__three-jpg-circle__jpg-three responsive-img"  src="./images/development-map.png" alt="">
                 </div>
-                <div class="col-md-9 watalogy-services__rows-three__text-three">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 watalogy-services__rows-three__text-three" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-three__text-three__text-header">
                         <p>
                             Pazaryeri gelişim yol haritanızı oluşturalım.
@@ -153,12 +148,8 @@
                 </div>
             </div>  
             <!-- 4. -->
-            <div class="row watalogy-services__rows-four">  
-                <div class="col-md-7  watalogy-services__rows-four__four-jpg-circle">
-                    <div class="watalogy-services__rows-four__four-jpg-circle__circle-4 rounded-circle d-inline-block">4</div>
-                    <img class="watalogy-services__rows-four__four-jpg-circle__jpg responsive-img"  src="./images/international-depo.png" alt="">
-                </div>
-                <div class="col-md-5 watalogy-services__rows-four__text-four">
+            <div class="row watalogy-services__rows-four">    
+                <div class="col-12 col-sm-12 col-md-12 col-lg-9 watalogy-services__rows-four__text-four" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-four__text-four__text-header">
                         <p>
                             ABD’de ve Avrupa’da ofisinizi, deponuzu, mağazanızı açalım.
@@ -168,19 +159,22 @@
                     <div class="watalogy-services__rows-four__text-four__text-header-explanation">
                         <p>
                             Hedef pazarlarda kendi şirketinizi, ofisinizi kurmanız için gereken hukuki ve <br>
-                operasyonel işlemleri gerçekleştirir.
-
+                            operasyonel işlemleri gerçekleştirir.
                         </p>
                     </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 d-flex justify-content-center justify-content-lg-start   watalogy-services__rows-four__four-jpg-circle" style="border: 1px solid red;">
+                    <div class="watalogy-services__rows-four__four-jpg-circle__circle-4 rounded-circle d-inline-block">4</div>
+                    <img class="watalogy-services__rows-four__four-jpg-circle__jpg-four responsive-img"  src="./images/international-depo.png" alt="">
                 </div>
             </div>  
             <!-- 5. -->
             <div class="row watalogy-services__rows-five">  
-                <div class="col-md-4  watalogy-services__rows-five__five-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-2 d-flex justify-content-center  watalogy-services__rows-five__five-jpg-circle" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-five__five-jpg-circle__circle-5 rounded-circle d-inline-block">5</div>
-                    <img class="watalogy-services__rows-five__five-jpg-circle__jpg responsive-img"  src="./images/fund.png" alt="">
+                    <img class="watalogy-services__rows-five__five-jpg-circle__jpg-five responsive-img"  src="./images/fund.png" alt="">
                 </div>
-                <div class="col-md-8 watalogy-services__rows-five__text-five">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 watalogy-services__rows-five__text-five" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-five__text-five__text-header">
                         <p>
                             Teşviklerden yararlandıralım.
@@ -188,8 +182,8 @@
                     </div>
                     <div class="watalogy-services__rows-five__text-five__text-header-explanation">
                         <p>
-                            İşletmenizin yurt dışı Pazar’lara açılmak için <br>
-                            yapacağı yatırımlara devlet destekleri <br> 
+                            İşletmenizin yurt dışı Pazar’lara açılmak için 
+                            yapacağı yatırımlara devlet destekleri 
                             almanız için Watalogy size yardım eder.
                         </p>
                     </div>
@@ -197,11 +191,11 @@
             </div>  
             <!-- 6. -->
             <div class="row watalogy-services__rows-six">  
-                <div class="col-md-8  watalogy-services__rows-six__six-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center  watalogy-services__rows-six__six-jpg-circle" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-six__six-jpg-circle__circle-6 rounded-circle d-inline-block">6</div>
-                    <img class="watalogy-services__rows-six__six-jpg-circle__jpg responsive-img "  src="./images/digital-product.png" alt="">
+                    <img class="watalogy-services__rows-six__six-jpg-circle__jpg-six responsive-img "  src="./images/digital-product.png" alt="">
                 </div>
-                <div class="col-md-4 watalogy-services__rows-six__text-six">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 watalogy-services__rows-six__text-six" style="border: 1px solid red;">
                     <div class="watalogy-services__rows-six__text-six__text-header">
                         <p>
                             Ürünlerinizi dijital olarak zenginleştirelim.
@@ -217,11 +211,11 @@
             </div>  
             <!-- 7. -->
             <div class="row watalogy-services__rows-seven">  
-                <div class="col-md-4  watalogy-services__rows-seven__seven-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-seven__seven-jpg-circle">
                     <div class="watalogy-services__rows-seven__seven-jpg-circle__circle-7 rounded-circle d-inline-block">7</div>
-                    <img class="watalogy-services__rows-seven__seven-jpg-circle__jpg responsive-img "  src="./images/digital-process.png" alt="">
+                    <img class="watalogy-services__rows-seven__seven-jpg-circle__jpg-seven responsive-img "  src="./images/digital-process.png" alt="">
                 </div>
-                <div class="col-md-8 watalogy-services__rows-seven__text-seven">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-seven__text-seven">
                     <div class="watalogy-services__rows-seven__text-seven__text-header">
                         <p>
                             Süreçlerinizi Dijitalleştirin!
@@ -236,11 +230,11 @@
             </div>  
             <!-- 8. -->
             <div class="row watalogy-services__rows-eight">  
-                <div class="col-md-8  watalogy-services__rows-eight__eight-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-eight__eight-jpg-circle">
                     <div class="watalogy-services__rows-eight__eight-jpg-circle__circle-8 rounded-circle d-inline-block">8</div>
-                    <img class="watalogy-services__rows-eight__eight-jpg-circle__jpg responsive-img"  src="./images/integration.png" alt="">
+                    <img class="watalogy-services__rows-eight__eight-jpg-circle__jpg-eight responsive-img"  src="./images/integration.png" alt="">
                 </div>
-                <div class="col-md-4 watalogy-services__rows-eight__text-eight">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-eight__text-eight">
                     <div class="watalogy-services__rows-eight__text-eight__text-header">
                         <p>
                             Pazaryerlerine Watalogy ile entegre olun!
@@ -257,11 +251,11 @@
             </div>  
             <!-- 9. -->
             <div class="row watalogy-services__rows-nine">  
-                <div class="col-md-4  watalogy-services__rows-nine__nine-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-nine__nine-jpg-circle">
                     <div class="watalogy-services__rows-nine__nine-jpg-circle__circle-9 rounded-circle d-inline-block">9</div>
-                    <img class="watalogy-services__rows-nine__nine-jpg-circle__jpg responsive-img"  src="./images/logistic.png" alt="">
+                    <img class="watalogy-services__rows-nine__nine-jpg-circle__jpg-nine responsive-img"  src="./images/logistic.png" alt="">
                 </div>
-                <div class="col-md-8 watalogy-services__rows-nine__text-nine">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-nine__text-nine">
                     <div class="watalogy-services__rows-nine__text-nine__text-header">
                         <p>
                             Lojistik planlarınızı oluşturalım.
@@ -277,11 +271,11 @@
             </div>  
             <!-- 10. -->
             <div class="row watalogy-services__rows-ten">  
-                <div class="col-md-8  watalogy-services__rows-ten__ten-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-ten__ten-jpg-circle">
                     <div class="watalogy-services__rows-ten__ten-jpg-circle__circle-10 rounded-circle d-inline-block">10</div>
-                    <img class="watalogy-services__rows-ten__ten-jpg-circle__jpg responsive-img"  src="./images/europe-usa.png" alt="">
+                    <img class="watalogy-services__rows-ten__ten-jpg-circle__jpg-ten responsive-img"  src="./images/europe-usa.png" alt="">
                 </div>
-                <div class="col-md-4 watalogy-services__rows-ten__text-ten">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-ten__text-ten">
                     <div class="watalogy-services__rows-ten__text-ten__text-header">
                         <p>
                             ABD ve Avrupa’da her an sevke hazır mallarınız bulunsun.
@@ -297,11 +291,11 @@
             </div>  
             <!-- 11. -->
             <div class="row watalogy-services__rows-eleven">  
-                <div class="col-md-4  watalogy-services__rows-eleven__eleven-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-eleven__eleven-jpg-circle">
                     <div class="watalogy-services__rows-eleven__eleven-jpg-circle__circle-11 rounded-circle d-inline-block">11</div>
-                    <img class="watalogy-services__rows-eleven__eleven-jpg-circle__jpg responsive-img"  src="./images/order.png" alt="">
+                    <img class="watalogy-services__rows-eleven__eleven-jpg-circle__jpg-eleven responsive-img"  src="./images/order.png" alt="">
                 </div>
-                <div class="col-md-8 watalogy-services__rows-eleven__text-eleven">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-eleven__text-eleven">
                     <div class="watalogy-services__rows-eleven__text-eleven__text-header">
                         <p>
                             Siparişler alalım.
@@ -317,11 +311,11 @@
             </div>  
             <!-- 12. -->
             <div class="row watalogy-services__rows-twelve">  
-                <div class="col-md-8  watalogy-services__rows-twelve__twelve-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-twelve__twelve-jpg-circle">
                     <div class="watalogy-services__rows-twelve__twelve-jpg-circle__circle-12 rounded-circle d-inline-block">12</div>
-                    <img class="watalogy-services__rows-twelve__twelve-jpg-circle__jpg responsive-img"  src="./images/cargo.png" alt="">
+                    <img class="watalogy-services__rows-twelve__twelve-jpg-circle__jpg-twelve responsive-img"  src="./images/cargo.png" alt="">
                 </div>
-                <div class="col-md-4 watalogy-services__rows-twelve__text-twelve">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-twelve__text-twelve">
                     <div class="watalogy-services__rows-twelve__text-twelve__text-header">
                         <p>
                             Sevk ve teslimatları yapalım.
@@ -338,11 +332,11 @@
             </div>  
             <!-- 13. -->
             <div class="row watalogy-services__rows-thirteen">  
-                <div class="col-md-4  watalogy-services__rows-thirteen__thirteen-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-thirteen__thirteen-jpg-circle">
                     <div class="watalogy-services__rows-thirteen__thirteen-jpg-circle__circle-13 rounded-circle d-inline-block">13</div>
-                    <img class="watalogy-services__rows-thirteen__thirteen-jpg-circle__jpg responsive-img"  src="./images/payment.png" alt="">
+                    <img class="watalogy-services__rows-thirteen__thirteen-jpg-circle__jpg-thirteen responsive-img"  src="./images/payment.png" alt="">
                 </div>
-                <div class="col-md-8 watalogy-services__rows-thirteen__text-thirteen">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-thirteen__text-thirteen">
                     <div class="watalogy-services__rows-thirteen__text-thirteen__text-header">
                         <p>
                             Tahsilatınız otomatikleşsin.
@@ -358,11 +352,11 @@
             </div>  
             <!-- 14. -->
             <div class="row watalogy-services__rows-fourteen">  
-                <div class="col-md-8  watalogy-services__rows-fourteen__fourteen-jpg-circle">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center  watalogy-services__rows-fourteen__fourteen-jpg-circle">
                     <div class="watalogy-services__rows-fourteen__fourteen-jpg-circle__circle-14 rounded-circle d-inline-block">14</div>
-                    <img class="watalogy-services__rows-fourteen__fourteen-jpg-circle__jpg "  src="./images/track.png" alt="">
+                    <img class="watalogy-services__rows-fourteen__fourteen-jpg-circle__jpg-fourteen "  src="./images/track.png" alt="">
                 </div>
-                <div class="col-md-4 watalogy-services__rows-fourteen__text-fourteen">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 watalogy-services__rows-fourteen__text-fourteen">
                     <div class="watalogy-services__rows-fourteen__text-fourteen__text-header">
                         <p>
                             Satışları ve müşterileri izleyin. Yeni fikirler geliştirelim!

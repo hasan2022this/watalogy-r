@@ -42,6 +42,7 @@
 }
 
 .watalogy-services {
+  /* --------1------ */
   /* --------2------ */
   /* --------3------ */
   /* --------4------ */
@@ -57,6 +58,11 @@
   /* --------14------ */
 }
 
+.watalogy-services__img-path {
+  width: 971.5px;
+  height: 2888.5px;
+}
+
 .watalogy-services__header-2 {
   color: #323433;
   font-family: 'Roboto', sans-serif;
@@ -65,6 +71,10 @@
   font-style: normal;
   line-height: 2rem;
   border-radius: nullpx;
+}
+
+.watalogy-services__rows-one__one-jpg-circle {
+  position: relative;
 }
 
 .watalogy-services__rows-one__one-jpg-circle__circle-1 {
@@ -79,6 +89,15 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+  margin-right: 120px;
+}
+
+.watalogy-services__rows-one__one-jpg-circle__jpg-one {
+  width: 153px;
+  height: 110px;
+  margin-top: 20px;
 }
 
 .watalogy-services__rows-one__text-one__text-header {
@@ -86,9 +105,11 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: 10px;
+  margin-left: -35px;
 }
 
 .watalogy-services__rows-one__text-one__text-header-explanation {
@@ -99,6 +120,8 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
+  margin-left: -35px;
 }
 
 .watalogy-services__rows-two__two-jpg-circle__circle-2 {
@@ -113,6 +136,14 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+  margin-right: 120px;
+}
+
+.watalogy-services__rows-two__two-jpg-circle__jpg-two {
+  width: 139px;
+  height: 111px;
 }
 
 .watalogy-services__rows-two__text-two__text-header {
@@ -120,9 +151,11 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-left: -25px;
+  margin-top: 15px;
 }
 
 .watalogy-services__rows-two__text-two__text-header-explanation {
@@ -133,6 +166,12 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
+  margin-left: -25px;
+}
+
+.watalogy-services__rows-three {
+  margin-top: -30px;
 }
 
 .watalogy-services__rows-three__three-jpg-circle__circle-3 {
@@ -147,6 +186,19 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+  margin-top: 125px;
+  margin-left: -100px;
+}
+
+.watalogy-services__rows-three__three-jpg-circle__jpg-three {
+  width: 167px;
+  height: 219px;
+}
+
+.watalogy-services__rows-three__text-three {
+  margin-top: 60px;
 }
 
 .watalogy-services__rows-three__text-three__text-header {
@@ -154,7 +206,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -167,6 +219,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-four__four-jpg-circle__circle-4 {
@@ -181,6 +234,20 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+  margin-top: 90px;
+  margin-left: 150px;
+}
+
+.watalogy-services__rows-four__four-jpg-circle__jpg-four {
+  width: 220px;
+  height: 210px;
+  margin-left: -15px;
+}
+
+.watalogy-services__rows-four__text-four {
+  margin-top: 80px;
 }
 
 .watalogy-services__rows-four__text-four__text-header {
@@ -188,12 +255,14 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-left: 150px;
 }
 
 .watalogy-services__rows-four__text-four__text-header-explanation {
+  margin-left: 150px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
@@ -201,6 +270,11 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
+}
+
+.watalogy-services__rows-five {
+  margin-top: 60px;
 }
 
 .watalogy-services__rows-five__five-jpg-circle__circle-5 {
@@ -215,6 +289,17 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-five__five-jpg-circle__jpg-five {
+  width: 183px;
+  height: 153px;
+}
+
+.watalogy-services__rows-five__text-five {
+  margin-top: -30px;
 }
 
 .watalogy-services__rows-five__text-five__text-header {
@@ -222,7 +307,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -235,6 +320,11 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
+}
+
+.watalogy-services__rows-six {
+  margin-top: 80px;
 }
 
 .watalogy-services__rows-six__six-jpg-circle__circle-6 {
@@ -249,6 +339,17 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-six__six-jpg-circle__jpg-six {
+  width: 338px;
+  height: 242px;
+}
+
+.watalogy-services__rows-six__text-six {
+  margin-top: 70px;
 }
 
 .watalogy-services__rows-six__text-six__text-header {
@@ -256,7 +357,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -269,6 +370,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-seven__seven-jpg-circle__circle-7 {
@@ -283,6 +385,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-seven__seven-jpg-circle__jpg-seven {
+  width: 229px;
+  height: 163px;
 }
 
 .watalogy-services__rows-seven__text-seven__text-header {
@@ -290,7 +399,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -303,6 +412,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-eight__eight-jpg-circle__circle-8 {
@@ -317,6 +427,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-eight__eight-jpg-circle__jpg-eight {
+  width: 186px;
+  height: 186px;
 }
 
 .watalogy-services__rows-eight__text-eight__text-header {
@@ -324,7 +441,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -337,6 +454,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-nine__nine-jpg-circle__circle-9 {
@@ -351,6 +469,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-nine__nine-jpg-circle__jpg-nine {
+  width: 212px;
+  height: 170px;
 }
 
 .watalogy-services__rows-nine__text-nine__text-header {
@@ -358,7 +483,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -371,6 +496,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-ten__ten-jpg-circle__circle-10 {
@@ -385,6 +511,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-ten__ten-jpg-circle__jpg-ten {
+  width: 208px;
+  height: 184px;
 }
 
 .watalogy-services__rows-ten__text-ten__text-header {
@@ -392,7 +525,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -405,6 +538,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-eleven__eleven-jpg-circle__circle-11 {
@@ -419,6 +553,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-eleven__eleven-jpg-circle__jpg-eleven {
+  width: 187px;
+  height: 180px;
 }
 
 .watalogy-services__rows-eleven__text-eleven__text-header {
@@ -426,7 +567,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -439,6 +580,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-twelve__twelve-jpg-circle__circle-12 {
@@ -453,6 +595,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-twelve__twelve-jpg-circle__jpg-twelve {
+  width: 284px;
+  height: 140px;
 }
 
 .watalogy-services__rows-twelve__text-twelve__text-header {
@@ -460,7 +609,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -473,6 +622,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-thirteen__thirteen-jpg-circle__circle-13 {
@@ -487,6 +637,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-thirteen__thirteen-jpg-circle__jpg-thirteen {
+  width: 288px;
+  height: 192px;
 }
 
 .watalogy-services__rows-thirteen__text-thirteen__text-header {
@@ -494,7 +651,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -507,6 +664,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-services__rows-fourteen__fourteen-jpg-circle__circle-14 {
@@ -521,6 +679,13 @@
   line-height: 2rem;
   padding: .5rem;
   color: #FFFCFC;
+  position: absolute;
+  z-index: 1;
+}
+
+.watalogy-services__rows-fourteen__fourteen-jpg-circle__jpg-fourteen {
+  width: 190px;
+  height: 188px;
 }
 
 .watalogy-services__rows-fourteen__text-fourteen__text-header {
@@ -528,7 +693,7 @@
   font-weight: bold;
   font-size: 1.563rem;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
 }
@@ -541,6 +706,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -15px;
 }
 
 .watalogy-advantages__rows-one__cols-one__rows__cols-one-images__one {
