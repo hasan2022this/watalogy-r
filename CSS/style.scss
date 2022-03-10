@@ -1,0 +1,589 @@
+$headline-color: #323433;
+$text-color: #000000;
+$circle-color: #F27575;
+$inside-circle-text:#FFFCFC;
+
+@mixin text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: 2rem;
+    color: $text-color;
+    border-radius: nullpx;
+  }
+
+@mixin circle {
+    width: 3rem;
+    height: 3rem;
+    background-color: $circle-color;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    padding: .5rem;
+    color: $inside-circle-text;
+  }
+
+  @mixin text-h2{
+    color: $headline-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 2rem;
+    border-radius: nullpx;
+  }
+
+  @mixin text-h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.563rem;
+    font-style: normal;
+    line-height: 3rem;
+    color: $text-color;
+    border-radius: nullpx;
+  }
+
+  @mixin adv-header-text {
+    color: $text-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 35px;
+    border-radius: nullpx;
+    text-align: left
+      
+  }
+
+  @mixin adv-header-explanation-text{
+    color: $text-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    border-radius: nullpx;
+    text-align: left 
+  }
+
+.div-one{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    &__row{
+        &__col_one{
+           background-color: rgb(173, 173, 212);
+        }
+        &__col-two{
+            background-color: rgb(210, 210, 247);
+            color: rgb(248, 221, 161);
+            &__headline{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 600;
+                font-size: 3.5rem;
+                font-style: normal;
+                color: black;
+                border-radius: nullpx;
+            }
+            &__headline-text{
+                @include text;
+            }
+            &__logo-text{
+                font-family: 'Roboto', sans-serif;
+                font-weight: normal;
+                font-size: 1.438rem;
+                font-style: normal;
+                line-height: 2rem;
+                color: #01B348;
+                border-radius: nullpx;
+            }
+        }
+        
+    }
+}
+
+.watalogy-services{
+    &__header-2{
+        @include text-h2;
+    }
+    &__rows-one{
+        &__one-jpg-circle{
+            &__circle-1{
+                @include circle;    
+            }
+        }
+        &__text-one{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------2------ */
+    &__rows-two{
+        &__two-jpg-circle{
+            &__circle-2{
+                @include circle;    
+            }
+        }
+        &__text-two{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------3------ */
+    &__rows-three{
+        &__three-jpg-circle{
+            &__circle-3{
+                @include circle;    
+            }
+        }
+        &__text-three{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------4------ */
+    &__rows-four{
+        &__four-jpg-circle{
+            &__circle-4{
+                @include circle;    
+            }
+        }
+        &__text-four{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------5------ */
+    &__rows-five{
+        &__five-jpg-circle{
+            &__circle-5{
+                @include circle;    
+            }
+        }
+        &__text-five{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------6------ */
+    &__rows-six{
+        &__six-jpg-circle{
+            &__circle-6{
+                @include circle;    
+            }
+        }
+        &__text-six{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------7------ */
+    &__rows-seven{
+        &__seven-jpg-circle{
+            &__circle-7{
+                @include circle;    
+            }
+        }
+        &__text-seven{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------8------ */
+    &__rows-eight{
+        &__eight-jpg-circle{
+            &__circle-8{
+                @include circle;    
+            }
+        }
+        &__text-eight{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------9------ */
+    &__rows-nine{
+        &__nine-jpg-circle{
+            &__circle-9{
+                @include circle;    
+            }
+        }
+        &__text-nine{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------10------ */
+    &__rows-ten{
+        &__ten-jpg-circle{
+            &__circle-10{
+                @include circle;    
+            }
+        }
+        &__text-ten{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------11------ */
+    &__rows-eleven{
+        &__eleven-jpg-circle{
+            &__circle-11{
+                @include circle;    
+            }
+        }
+        &__text-eleven{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------12------ */
+    &__rows-twelve{
+        &__twelve-jpg-circle{
+            &__circle-12{
+                @include circle;    
+            }
+        }
+        &__text-twelve{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------13------ */
+    &__rows-thirteen{
+        &__thirteen-jpg-circle{
+            &__circle-13{
+                @include circle;    
+            }
+        }
+        &__text-thirteen{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+    /* --------14------ */
+    &__rows-fourteen{
+        &__fourteen-jpg-circle{
+            &__circle-14{
+                @include circle;    
+            }
+        }
+        &__text-fourteen{
+            &__text-header{
+                @include text-h3(); 
+            }
+            &__text-header-explanation{
+                @include text(); 
+            }
+        }
+    }
+   
+}
+
+
+@mixin adv-header-text {
+    color: $text-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 35px;
+    border-radius: nullpx;
+    text-align: left
+      
+  }
+
+  @mixin adv-header-explanation-text{
+    color: $text-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    border-radius: nullpx;
+    text-align: left 
+  }
+
+.watalogy-advantages{ 
+    &__rows-one{
+        &__cols-one{
+            &__rows{
+                &__cols-one-images{
+                    &__one{
+                        width: 100px;
+                        height: 156px;
+                        margin-top: 30%;
+                        margin-bottom: 30%; 
+                    }
+                }
+                &__cols-two-texts{
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    &__header-text{
+                        @include adv-header-text;
+                        
+                    }
+                    &__header-explanation-text{
+                        @include adv-header-explanation-text;
+                    }
+                }
+            }
+        }
+        &__cols-two{
+            &__rows{
+                &__cols-one-images{
+                    &__two{
+                        margin-top: 30%;
+                        margin-bottom: 30%;
+                        width: 134px;
+                        height: 126px;  
+                    }
+                }
+                &__cols-two-texts{
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    &__header-text{
+                        @include adv-header-text;
+                    }
+                    &__header-explanation-text{
+                        @include adv-header-explanation-text;
+                    }
+                }
+            }
+        }
+
+    }
+
+    &__rows-two{
+        &__cols-one{
+            &__rows{
+                &__cols-one-images{
+                    &__one{
+                        margin-top: 30%;
+                        margin-bottom: 30%;
+                        width: 133px;
+                        height: 106px;
+                    }
+                }
+                &__cols-two-texts{
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    &__header-text{
+                        @include adv-header-text;
+                    }
+                    &__header-explanation-text{
+                        @include adv-header-explanation-text;
+                    }
+                }
+            }
+        }
+
+        &__cols-two{
+            &__rows{
+                &__cols-one-images{
+                    &__two{
+                        margin-top: 30%;
+                        margin-bottom: 30%;
+                        width: 133px;
+                        height: 118px;
+                    }
+                }
+                &__cols-two-texts{
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    &__header-text{
+                        @include adv-header-text;
+                    }
+                    &__header-explanation-text{
+                        @include adv-header-explanation-text;
+                    }
+                }
+            }
+        }
+       
+
+    }
+}
+
+.watalogy-marketplace{
+    margin-top: 100px;
+    &__header{
+        margin-bottom: 40px;
+        &__img-one{
+            &__left{
+                width: 44px;
+                height: 68px;
+            }
+        }
+        .watalogy-marketplace__header-text{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 53px;
+            text-align: center;
+            color: #000000;
+            
+        }
+      
+        &__img-two{
+            &__right{
+                width: 41px;
+                height: 68px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    &__rows-one{
+        &__cols-one{
+            &__amazon-img{
+                width: 247px;
+                height: 110px;
+                
+                
+            }
+        }
+        &__cols-two{
+            &__etsy-img{
+                width: 162px;
+                height: 77px;
+                
+            }
+
+        }
+        &__cols-three{
+            &__wayfair-img{
+                border: 2px solid red;
+                width: 190px;
+                height: 92px;
+                
+            }
+        }
+        &__cols-four{
+            &__houzz-img{
+                border: 2px solid red;
+                width: 259px;
+                height: 77px;
+                margin: auto;
+                display: block;
+                
+            }
+
+        }
+    }
+    &__rows-two{
+        &__cols-one{
+            &__otto-img{
+                width: 169px;
+                height: 169px;
+            }
+            
+        }
+        &__cols-two{
+            &__zalando-img{
+                width: 221px;
+                height: 111px;
+                
+            }
+
+        }
+        &__cols-three{
+            &__kaufland-img{
+                width: 116px;
+                height: 116px;
+                
+            }
+
+        }
+        &__cols-four{
+            &__ebay-img{
+                width: 169px;
+                height: 68px;   
+            }
+        }
+    }
+    &__rows-three{
+        &__cols-one{
+            &__walmart-im{
+                width: 226px;
+                height: 127px; 
+            }
+        }
+        &__cols-two{
+            &__hepsiburda-img{
+                width: 141px;
+                height: 141px;      
+            }
+
+        }
+        &__cols-three{
+            &__trendyol-img{
+                width: 193px;
+                height: 63px;
+            }
+        }
+        &__cols-four{
+            &__n11-img{
+                width: 259px;
+                height: 194px;
+            }
+        }
+    }
+}

@@ -1,0 +1,774 @@
+.div-one {
+  width: 100%;
+  background-color: white;
+}
+
+.div-one__row__col_one {
+  background-color: #adadd4;
+}
+
+.div-one__row__col-two {
+  background-color: #d2d2f7;
+  color: #f8dda1;
+}
+
+.div-one__row__col-two__headline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  font-style: normal;
+  color: black;
+  border-radius: nullpx;
+}
+
+.div-one__row__col-two__headline-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.div-one__row__col-two__logo-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.438rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #01B348;
+  border-radius: nullpx;
+}
+
+.watalogy-services {
+  /* --------2------ */
+  /* --------3------ */
+  /* --------4------ */
+  /* --------5------ */
+  /* --------6------ */
+  /* --------7------ */
+  /* --------8------ */
+  /* --------9------ */
+  /* --------10------ */
+  /* --------11------ */
+  /* --------12------ */
+  /* --------13------ */
+  /* --------14------ */
+}
+
+.watalogy-services__header-2 {
+  color: #323433;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 2rem;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-one__one-jpg-circle__circle-1 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-one__text-one__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-one__text-one__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-two__two-jpg-circle__circle-2 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-two__text-two__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-two__text-two__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-three__three-jpg-circle__circle-3 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-three__text-three__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-three__text-three__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-four__four-jpg-circle__circle-4 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-four__text-four__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-four__text-four__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-five__five-jpg-circle__circle-5 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-five__text-five__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-five__text-five__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-six__six-jpg-circle__circle-6 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-six__text-six__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-six__text-six__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-seven__seven-jpg-circle__circle-7 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-seven__text-seven__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-seven__text-seven__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-eight__eight-jpg-circle__circle-8 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-eight__text-eight__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-eight__text-eight__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-nine__nine-jpg-circle__circle-9 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-nine__text-nine__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-nine__text-nine__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-ten__ten-jpg-circle__circle-10 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-ten__text-ten__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-ten__text-ten__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-eleven__eleven-jpg-circle__circle-11 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-eleven__text-eleven__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-eleven__text-eleven__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-twelve__twelve-jpg-circle__circle-12 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-twelve__text-twelve__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-twelve__text-twelve__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-thirteen__thirteen-jpg-circle__circle-13 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-thirteen__text-thirteen__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-thirteen__text-thirteen__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-fourteen__fourteen-jpg-circle__circle-14 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #F27575;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: .5rem;
+  color: #FFFCFC;
+}
+
+.watalogy-services__rows-fourteen__text-fourteen__text-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.563rem;
+  font-style: normal;
+  line-height: 3rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-services__rows-fourteen__text-fourteen__text-header-explanation {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 2rem;
+  color: #000000;
+  border-radius: nullpx;
+}
+
+.watalogy-advantages__rows-one__cols-one__rows__cols-one-images__one {
+  width: 100px;
+  height: 156px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
+.watalogy-advantages__rows-one__cols-one__rows__cols-two-texts {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.watalogy-advantages__rows-one__cols-one__rows__cols-two-texts__header-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 35px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-advantages__rows-one__cols-one__rows__cols-two-texts__header-explanation-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-advantages__rows-one__cols-two__rows__cols-one-images__two {
+  margin-top: 30%;
+  margin-bottom: 30%;
+  width: 134px;
+  height: 126px;
+}
+
+.watalogy-advantages__rows-one__cols-two__rows__cols-two-texts {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.watalogy-advantages__rows-one__cols-two__rows__cols-two-texts__header-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 35px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-advantages__rows-one__cols-two__rows__cols-two-texts__header-explanation-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-advantages__rows-two__cols-one__rows__cols-one-images__one {
+  margin-top: 30%;
+  margin-bottom: 30%;
+  width: 133px;
+  height: 106px;
+}
+
+.watalogy-advantages__rows-two__cols-one__rows__cols-two-texts {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.watalogy-advantages__rows-two__cols-one__rows__cols-two-texts__header-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 35px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-advantages__rows-two__cols-one__rows__cols-two-texts__header-explanation-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-advantages__rows-two__cols-two__rows__cols-one-images__two {
+  margin-top: 30%;
+  margin-bottom: 30%;
+  width: 133px;
+  height: 118px;
+}
+
+.watalogy-advantages__rows-two__cols-two__rows__cols-two-texts {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.watalogy-advantages__rows-two__cols-two__rows__cols-two-texts__header-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 35px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-advantages__rows-two__cols-two__rows__cols-two-texts__header-explanation-text {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+  border-radius: nullpx;
+  text-align: left;
+}
+
+.watalogy-marketplace {
+  margin-top: 100px;
+}
+
+.watalogy-marketplace__header {
+  margin-bottom: 40px;
+}
+
+.watalogy-marketplace__header__img-one__left {
+  width: 44px;
+  height: 68px;
+}
+
+.watalogy-marketplace__header .watalogy-marketplace__header-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+}
+
+.watalogy-marketplace__header__img-two__right {
+  width: 41px;
+  height: 68px;
+  margin-bottom: 40px;
+}
+
+.watalogy-marketplace__rows-one__cols-one__amazon-img {
+  width: 247px;
+  height: 110px;
+}
+
+.watalogy-marketplace__rows-one__cols-two__etsy-img {
+  width: 162px;
+  height: 77px;
+}
+
+.watalogy-marketplace__rows-one__cols-three__wayfair-img {
+  border: 2px solid red;
+  width: 190px;
+  height: 92px;
+}
+
+.watalogy-marketplace__rows-one__cols-four__houzz-img {
+  border: 2px solid red;
+  width: 259px;
+  height: 77px;
+  margin: auto;
+  display: block;
+}
+
+.watalogy-marketplace__rows-two__cols-one__otto-img {
+  width: 169px;
+  height: 169px;
+}
+
+.watalogy-marketplace__rows-two__cols-two__zalando-img {
+  width: 221px;
+  height: 111px;
+}
+
+.watalogy-marketplace__rows-two__cols-three__kaufland-img {
+  width: 116px;
+  height: 116px;
+}
+
+.watalogy-marketplace__rows-two__cols-four__ebay-img {
+  width: 169px;
+  height: 68px;
+}
+
+.watalogy-marketplace__rows-three__cols-one__walmart-im {
+  width: 226px;
+  height: 127px;
+}
+
+.watalogy-marketplace__rows-three__cols-two__hepsiburda-img {
+  width: 141px;
+  height: 141px;
+}
+
+.watalogy-marketplace__rows-three__cols-three__trendyol-img {
+  width: 193px;
+  height: 63px;
+}
+
+.watalogy-marketplace__rows-three__cols-four__n11-img {
+  width: 259px;
+  height: 194px;
+}
+/*# sourceMappingURL=style.css.map */
