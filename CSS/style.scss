@@ -135,12 +135,34 @@ $inside-circle-text:#FFFCFC;
             &__text-header{
                 @include text-h3();
                 margin-top: 10px; 
-                margin-left: -35px; 
+                margin-left: -35px;
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px; 
+                }
+                /* Small devices (portrait tablets and large phones, 600px and up) */
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px;  
+                }
+                /* Medium devices (landscape tablets, 768px and up) */
+                @media only screen and (max-width: 768px) {
+                    margin-left: 0px; 
+                }  
             }
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
-                margin-left: -35px;  
+                margin-left: -35px;
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px; 
+                }
+                /* Small devices (portrait tablets and large phones, 600px and up) */
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px;  
+                }
+                /* Medium devices (landscape tablets, 768px and up) */
+                @media only screen and (max-width: 768px) {
+                    margin-left: 0px; 
+                }   
             }
         }
     }
@@ -163,12 +185,34 @@ $inside-circle-text:#FFFCFC;
             &__text-header{
                 @include text-h3();
                 margin-left: -25px; 
-                margin-top:15px; 
+                margin-top:15px;
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px; 
+                }
+                /* Small devices (portrait tablets and large phones, 600px and up) */
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px;  
+                }
+                /* Medium devices (landscape tablets, 768px and up) */
+                @media only screen and (max-width: 768px) {
+                    margin-left: 0px; 
+                }  
             }
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
-                margin-left: -25px; 
+                margin-left: -25px;
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px; 
+                }
+                /* Small devices (portrait tablets and large phones, 600px and up) */
+                @media only screen and (max-width: 600px) {
+                    margin-left: 0px;  
+                }
+                /* Medium devices (landscape tablets, 768px and up) */
+                @media only screen and (max-width: 768px) {
+                    margin-left: 0px; 
+                }  
             }
         }
     }
@@ -190,6 +234,18 @@ $inside-circle-text:#FFFCFC;
         }
         &__text-three{
             margin-top:60px;
+            @media only screen and (max-width: 600px) {
+                margin-top:0px;
+            }
+            /* Small devices (portrait tablets and large phones, 600px and up) */
+            @media only screen and (max-width: 600px) {
+                margin-top:0px;  
+            }
+            /* Medium devices (landscape tablets, 768px and up) */
+            @media only screen and (max-width: 768px) {
+                margin-top:0px; 
+            } 
+            
             &__text-header{
                 @include text-h3(); 
             }
@@ -216,7 +272,18 @@ $inside-circle-text:#FFFCFC;
             }
         }
         &__text-four{
-            margin-top:80px; 
+            margin-top:80px;
+            @media only screen and (max-width: 600px) {
+                margin-top:0px; 
+            }
+            /* Small devices (portrait tablets and large phones, 600px and up) */
+            @media only screen and (max-width: 600px) {
+                margin-top:0px; 
+            }
+            /* Medium devices (landscape tablets, 768px and up) */
+            @media only screen and (max-width: 768px) {
+                margin-top:0px; 
+            } 
             &__text-header{
                 @include text-h3();
                 margin-left: 150px; 
@@ -256,12 +323,14 @@ $inside-circle-text:#FFFCFC;
     }
     /* --------6------ */
     &__rows-six{
-        margin-top:80px;
+        margin-top:50px;
         &__six-jpg-circle{
             &__circle-6{
                 @include circle;
                 position: absolute;
-                z-index: 1;    
+                z-index: 1;
+                margin-right:30px;
+                margin-top: 100px;     
             }
             &__jpg-six{
                 width: 338px;
@@ -270,13 +339,15 @@ $inside-circle-text:#FFFCFC;
             }
         }
         &__text-six{
-            margin-top:70px;
+            margin-top:50px;
             &__text-header{
                 @include text-h3(); 
+                margin-left:-30px;
             }
             &__text-header-explanation{
                 @include text();
-                margin-top:-15px; 
+                margin-top:-15px;
+                margin-left:-30px; 
             }
         }
     }
@@ -286,71 +357,94 @@ $inside-circle-text:#FFFCFC;
             &__circle-7{
                 @include circle;
                 position: absolute;
-                z-index: 1;    
+                z-index: 1; 
+                margin-top:50px;;
+                margin-right: 130px;    
             }
             &__jpg-seven{
                 width: 229px;
                 height: 163px;
+                margin-right: -450px;
+                margin-top: -50px;
             }
         }
         &__text-seven{
+            margin-top:20px;
             &__text-header{
-                @include text-h3(); 
+                @include text-h3();
+                margin-left: -130px;
+                 
             }
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
+                margin-left: -130px;
             }
         }
     }
     /* --------8------ */
     &__rows-eight{
+        margin-right: 400px;
+        margin-top: 30px;
         &__eight-jpg-circle{
             &__circle-8{
                 @include circle;
                 position: absolute;
-                z-index: 1;    
+                z-index: 1; 
+                margin-right: -500px;   
             }
             &__jpg-eight{
                 width: 186px;
                 height: 186px;
+                margin-right: -550px;
             }
         }
         &__text-eight{
             &__text-header{
                 @include text-h3(); 
+                margin-left: -150px;
             }
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
+                margin-left: -150px;
             }
         }
     }
     /* --------9------ */
     &__rows-nine{
+        margin-right: 400px;
+        margin-top: 40px;
         &__nine-jpg-circle{
             &__circle-9{
                 @include circle;
                 position: absolute;
-                z-index: 1;    
+                z-index: 1; 
+                margin-left: 1700px;      
             }
             &__jpg-nine{
                 width: 212px;
                 height: 170px;
+                margin-left: 1700px;
+                margin-top: -100px;
             }
         }
         &__text-nine{
             &__text-header{
-                @include text-h3(); 
+                @include text-h3();
+                margin-top:-20px;
+                margin-left: -30px; 
             }
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
+                margin-left: -30px;;
             }
         }
     }
     /* --------10------ */
     &__rows-ten{
+        margin-top: 100px;
         &__ten-jpg-circle{
             &__circle-10{
                 @include circle;
@@ -365,10 +459,13 @@ $inside-circle-text:#FFFCFC;
         &__text-ten{
             &__text-header{
                 @include text-h3(); 
+                margin-top: 20px;
+                margin-left: -40px;
             }
             &__text-header-explanation{
                 @include text();
-                margin-top:-15px; 
+                margin-top:-15px;
+                margin-left: -40px; 
             }
         }
     }
@@ -383,15 +480,20 @@ $inside-circle-text:#FFFCFC;
             &__jpg-eleven{
                 width: 187px;
                 height: 180px;
+                margin-left: 1500px;
+                margin-top: 10px;
             }
         }
         &__text-eleven{
             &__text-header{
                 @include text-h3(); 
+                margin-top:50px;
+                margin-left: -60px; 
             }
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
+                margin-left: -60px
             }
         }
     }

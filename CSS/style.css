@@ -110,6 +110,26 @@
   border-radius: nullpx;
   margin-top: 10px;
   margin-left: -35px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-one__text-one__text-header {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-one__text-one__text-header {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-one__text-one__text-header {
+    margin-left: 0px;
+  }
 }
 
 .watalogy-services__rows-one__text-one__text-header-explanation {
@@ -122,6 +142,26 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -35px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-one__text-one__text-header-explanation {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-one__text-one__text-header-explanation {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-one__text-one__text-header-explanation {
+    margin-left: 0px;
+  }
 }
 
 .watalogy-services__rows-two__two-jpg-circle__circle-2 {
@@ -156,6 +196,26 @@
   border-radius: nullpx;
   margin-left: -25px;
   margin-top: 15px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-two__text-two__text-header {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-two__text-two__text-header {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-two__text-two__text-header {
+    margin-left: 0px;
+  }
 }
 
 .watalogy-services__rows-two__text-two__text-header-explanation {
@@ -168,6 +228,26 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -25px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-two__text-two__text-header-explanation {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-two__text-two__text-header-explanation {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-two__text-two__text-header-explanation {
+    margin-left: 0px;
+  }
 }
 
 .watalogy-services__rows-three {
@@ -199,6 +279,26 @@
 
 .watalogy-services__rows-three__text-three {
   margin-top: 60px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-three__text-three {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-three__text-three {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-three__text-three {
+    margin-top: 0px;
+  }
 }
 
 .watalogy-services__rows-three__text-three__text-header {
@@ -248,6 +348,26 @@
 
 .watalogy-services__rows-four__text-four {
   margin-top: 80px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__text-four {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__text-four {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-four__text-four {
+    margin-top: 0px;
+  }
 }
 
 .watalogy-services__rows-four__text-four__text-header {
@@ -324,7 +444,7 @@
 }
 
 .watalogy-services__rows-six {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .watalogy-services__rows-six__six-jpg-circle__circle-6 {
@@ -341,6 +461,8 @@
   color: #FFFCFC;
   position: absolute;
   z-index: 1;
+  margin-right: 30px;
+  margin-top: 100px;
 }
 
 .watalogy-services__rows-six__six-jpg-circle__jpg-six {
@@ -349,7 +471,7 @@
 }
 
 .watalogy-services__rows-six__text-six {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .watalogy-services__rows-six__text-six__text-header {
@@ -360,6 +482,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-left: -30px;
 }
 
 .watalogy-services__rows-six__text-six__text-header-explanation {
@@ -371,6 +494,7 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  margin-left: -30px;
 }
 
 .watalogy-services__rows-seven__seven-jpg-circle__circle-7 {
@@ -387,11 +511,19 @@
   color: #FFFCFC;
   position: absolute;
   z-index: 1;
+  margin-top: 50px;
+  margin-right: 130px;
 }
 
 .watalogy-services__rows-seven__seven-jpg-circle__jpg-seven {
   width: 229px;
   height: 163px;
+  margin-right: -450px;
+  margin-top: -50px;
+}
+
+.watalogy-services__rows-seven__text-seven {
+  margin-top: 20px;
 }
 
 .watalogy-services__rows-seven__text-seven__text-header {
@@ -402,6 +534,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-left: -130px;
 }
 
 .watalogy-services__rows-seven__text-seven__text-header-explanation {
@@ -413,6 +546,12 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  margin-left: -130px;
+}
+
+.watalogy-services__rows-eight {
+  margin-right: 400px;
+  margin-top: 30px;
 }
 
 .watalogy-services__rows-eight__eight-jpg-circle__circle-8 {
@@ -429,11 +568,13 @@
   color: #FFFCFC;
   position: absolute;
   z-index: 1;
+  margin-right: -500px;
 }
 
 .watalogy-services__rows-eight__eight-jpg-circle__jpg-eight {
   width: 186px;
   height: 186px;
+  margin-right: -550px;
 }
 
 .watalogy-services__rows-eight__text-eight__text-header {
@@ -444,6 +585,7 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-left: -150px;
 }
 
 .watalogy-services__rows-eight__text-eight__text-header-explanation {
@@ -455,6 +597,12 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  margin-left: -150px;
+}
+
+.watalogy-services__rows-nine {
+  margin-right: 400px;
+  margin-top: 40px;
 }
 
 .watalogy-services__rows-nine__nine-jpg-circle__circle-9 {
@@ -471,11 +619,14 @@
   color: #FFFCFC;
   position: absolute;
   z-index: 1;
+  margin-left: 1700px;
 }
 
 .watalogy-services__rows-nine__nine-jpg-circle__jpg-nine {
   width: 212px;
   height: 170px;
+  margin-left: 1700px;
+  margin-top: -100px;
 }
 
 .watalogy-services__rows-nine__text-nine__text-header {
@@ -486,6 +637,8 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: -20px;
+  margin-left: -30px;
 }
 
 .watalogy-services__rows-nine__text-nine__text-header-explanation {
@@ -497,6 +650,11 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  margin-left: -30px;
+}
+
+.watalogy-services__rows-ten {
+  margin-top: 100px;
 }
 
 .watalogy-services__rows-ten__ten-jpg-circle__circle-10 {
@@ -528,6 +686,8 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: 20px;
+  margin-left: -40px;
 }
 
 .watalogy-services__rows-ten__text-ten__text-header-explanation {
@@ -539,6 +699,7 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  margin-left: -40px;
 }
 
 .watalogy-services__rows-eleven__eleven-jpg-circle__circle-11 {
@@ -560,6 +721,8 @@
 .watalogy-services__rows-eleven__eleven-jpg-circle__jpg-eleven {
   width: 187px;
   height: 180px;
+  margin-left: 1500px;
+  margin-top: 10px;
 }
 
 .watalogy-services__rows-eleven__text-eleven__text-header {
@@ -570,6 +733,8 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+  margin-top: 50px;
+  margin-left: -60px;
 }
 
 .watalogy-services__rows-eleven__text-eleven__text-header-explanation {
@@ -581,6 +746,7 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  margin-left: -60px;
 }
 
 .watalogy-services__rows-twelve__twelve-jpg-circle__circle-12 {
