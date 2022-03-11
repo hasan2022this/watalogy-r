@@ -44,7 +44,6 @@
 }
 
 .div-one__row__col-two__headline-text {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -227,7 +226,6 @@
 }
 
 .watalogy-services__rows-one__text-one__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -313,7 +311,6 @@
 }
 
 .watalogy-services__rows-two__text-two__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -406,7 +403,6 @@
 }
 
 .watalogy-services__rows-three__text-three__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -540,7 +536,6 @@
 
 .watalogy-services__rows-four__text-four__text-header-explanation {
   margin-left: -200px;
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -650,7 +645,6 @@
 }
 
 .watalogy-services__rows-five__text-five__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -783,7 +777,6 @@
 }
 
 .watalogy-services__rows-six__text-six__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -941,7 +934,6 @@
 }
 
 .watalogy-services__rows-seven__text-seven__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -1092,7 +1084,6 @@
 }
 
 .watalogy-services__rows-eight__text-eight__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -1254,7 +1245,6 @@
 }
 
 .watalogy-services__rows-nine__text-nine__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -1363,7 +1353,6 @@
 }
 
 .watalogy-services__rows-ten__text-ten__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -1524,7 +1513,6 @@
 }
 
 .watalogy-services__rows-eleven__text-eleven__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -1685,7 +1673,6 @@
 }
 
 .watalogy-services__rows-twelve__text-twelve__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -1793,7 +1780,6 @@
 }
 
 .watalogy-services__rows-thirteen__text-thirteen__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -1937,7 +1923,6 @@
 }
 
 .watalogy-services__rows-fourteen__text-fourteen__text-header-explanation {
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
   font-style: normal;
@@ -2109,6 +2094,7 @@
 
 .watalogy-marketplace {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .watalogy-marketplace__header {
@@ -2196,5 +2182,33 @@
 .watalogy-marketplace__rows-three__cols-four__n11-img {
   width: 259px;
   height: 194px;
+}
+
+.line {
+  width: 100%;
+}
+
+.for-details {
+  padding: 8vw;
+}
+
+.for-details__one__p1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: black;
+}
+
+.for-details__two__p2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */

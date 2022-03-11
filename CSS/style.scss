@@ -4,7 +4,7 @@ $circle-color: #F27575;
 $inside-circle-text:#FFFCFC;
 
 @mixin text{
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: normal;
     font-size: 1.3rem;
     font-style: normal;
@@ -1341,6 +1341,7 @@ $inside-circle-text:#FFFCFC;
 
 .watalogy-marketplace{
     margin-top: 100px;
+    margin-bottom: 100px;
     &__header{
         margin-bottom: 40px;
         &__img-one{
@@ -1461,6 +1462,37 @@ $inside-circle-text:#FFFCFC;
                 width: 259px;
                 height: 194px;
             }
+        }
+    }
+}
+
+.line{
+    width: 100%;
+}
+
+.for-details{
+    padding: 8vw;
+    &__one{
+        &__p1{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 38px;
+            text-align: center;
+            color: black;
+        }
+    }
+    &__two{
+        &__p2{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 33px;
+            text-align: center;
+            color: #000000;
+
         }
     }
 }
