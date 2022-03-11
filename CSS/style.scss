@@ -73,6 +73,13 @@ $inside-circle-text:#FFFCFC;
     height: auto;
     width: 100%;
 }
+.path {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
 .div-one{
     width: 100%;
     background-color: rgb(255, 255, 255);

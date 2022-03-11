@@ -3,6 +3,14 @@
   width: 100%;
 }
 
+.path {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
 .div-one {
   width: 100%;
   background-color: white;
@@ -92,6 +100,22 @@
   padding-bottom: 40px;
 }
 
+.watalogy-services {
+  /* --------1------ */
+  /* --------2------ */
+  /* --------3------ */
+  /* --------4------ */
+  /* --------5------ */
+  /* --------6------ */
+  /* --------7------ */
+  /* --------8------ */
+  /* --------9------ */
+  /* --------10------ */
+  /* --------11------ */
+  /* --------12------ */
+  /* --------13------ */
+  /* --------14------ */
+}
 
 .watalogy-services__img-path {
   width: 971.5px;
@@ -796,6 +820,10 @@
   }
 }
 
+.watalogy-services__rows-seven {
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
 
 @media only screen and (max-width: 600px) {
   .watalogy-services__rows-seven {
@@ -1368,6 +1396,10 @@
   }
 }
 
+.watalogy-services__rows-eleven {
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
 
 @media only screen and (max-width: 600px) {
   .watalogy-services__rows-eleven {
@@ -1524,6 +1556,10 @@
   }
 }
 
+.watalogy-services__rows-twelve {
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
 
 @media only screen and (max-width: 600px) {
   .watalogy-services__rows-twelve {
@@ -1766,7 +1802,10 @@
   margin-top: -15px;
 }
 
-
+.watalogy-services__rows-fourteen {
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
 
 @media only screen and (max-width: 600px) {
   .watalogy-services__rows-fourteen {
