@@ -337,18 +337,61 @@
   color: #FFFCFC;
   position: absolute;
   z-index: 1;
-  margin-top: 90px;
-  margin-left: 150px;
+  margin-left: 950px;
+  margin-top: 100px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__four-jpg-circle__circle-4 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__four-jpg-circle__circle-4 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-four__four-jpg-circle__circle-4 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 }
 
 .watalogy-services__rows-four__four-jpg-circle__jpg-four {
   width: 220px;
   height: 210px;
-  margin-left: -15px;
+  margin-left: 800px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__four-jpg-circle__jpg-four {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__four-jpg-circle__jpg-four {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-four__four-jpg-circle__jpg-four {
+    margin-left: 0px;
+  }
 }
 
 .watalogy-services__rows-four__text-four {
-  margin-top: 80px;
+  margin-top: 60px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -379,11 +422,31 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
-  margin-left: 150px;
+  margin-left: -200px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__text-four__text-header {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__text-four__text-header {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-four__text-four__text-header {
+    margin-left: 0px;
+  }
 }
 
 .watalogy-services__rows-four__text-four__text-header-explanation {
-  margin-left: 150px;
+  margin-left: -200px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
@@ -392,6 +455,26 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__text-four__text-header-explanation {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__rows-four__text-four__text-header-explanation {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__rows-four__text-four__text-header-explanation {
+    margin-left: 0px;
+  }
 }
 
 .watalogy-services__rows-five {
@@ -440,7 +523,7 @@
 }
 
 .watalogy-services__rows-five__text-five {
-  margin-top: -30px;
+  margin-top: -60px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
