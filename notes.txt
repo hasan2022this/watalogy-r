@@ -1,0 +1,6 @@
+Notes:
+
+1: CMS içinde kullanılacak ise;
+watalogy.html  içeriği alınıp kullanılacak.
+
+2: site içinde kullanılacak ise index.html ve style.css dosyaları kullanılacak

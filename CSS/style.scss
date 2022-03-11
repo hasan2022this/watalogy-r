@@ -63,13 +63,16 @@ $inside-circle-text:#FFFCFC;
     color: $text-color;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 23px;
     font-style: normal;
     line-height: 28px;
     border-radius: nullpx;
     text-align: left 
   }
-
+.img-responsive{
+    height: auto;
+    width: 100%;
+}
 .div-one{
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -1231,7 +1234,7 @@ $inside-circle-text:#FFFCFC;
     color: $text-color;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 23px;
     font-style: normal;
     line-height: 28px;
     border-radius: nullpx;
