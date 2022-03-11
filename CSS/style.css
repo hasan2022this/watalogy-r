@@ -5,9 +5,30 @@
 
 .div-one__row__col_one {
   background-color: #adadd4;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .div-one__row__col_one {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .div-one__row__col_one {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .div-one__row__col_one {
+    display: none;
+  }
 }
 
 .div-one__row__col-two {
+  padding: 50px 50px 0 50px;
   background-color: #d2d2f7;
   color: #f8dda1;
 }
@@ -29,6 +50,30 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
+}
+
+.div-one__row__col-two__image {
+  display: none;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .div-one__row__col-two__image {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .div-one__row__col-two__image {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .div-one__row__col-two__image {
+    display: block;
+  }
 }
 
 .div-one__row__col-two__logo-text {
@@ -61,9 +106,30 @@
 .watalogy-services__img-path {
   width: 971.5px;
   height: 2888.5px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__img-path {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__img-path {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__img-path {
+    display: none;
+  }
 }
 
 .watalogy-services__header-2 {
+  position: relative;
   color: #323433;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -71,6 +137,31 @@
   font-style: normal;
   line-height: 2rem;
   border-radius: nullpx;
+}
+
+.watalogy-services__header-2__text {
+  position: absolute;
+  margin-top: 30px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__header-2__text {
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-services__header-2__text {
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .watalogy-services__header-2__text {
+    position: static;
+  }
 }
 
 .watalogy-services__rows-one__one-jpg-circle {

@@ -16,12 +16,7 @@
 
     <title>Watalogy-html</title>
     <style>
-        .container{
-            padding-left: 5px !important;
-            padding-right: 5px !important;
-           
-        }
-
+       
         .path {
             position: absolute;
             left: 0;
@@ -29,31 +24,22 @@
             top: 0;
             bottom: 0;
         }
-       /*  .responsive-img{
-            width: 100%;
-            height: auto;
-        } */
-       /*  @media screen and (max-width: 992px) and (min-width: 768px) {
-            .pathimg{
-                height: 1900px;
-                position: absolute;
-            }
-        } */
     </style>
 </head>
 
 <body>
-    <div class="container ">
+    <div class="container-fluid headline ">
         <!-- watalogy-header -->
-        <div >
-            <img src="./images/watalogy.png" alt="">
+        <div class="row justify-content-between" >
+            <img src="./images/watalogy.png" style="max-width:333px; max-height:80px; margin:20px 0 20px 0;" alt="">
+            <img src="./images/workcube.jpg" style="max-width:107px; max-height:84px; margin:20px 0 20px 0" alt="">
         </div>
     </div>
 
     <div class="container-fluid div-one" >
         <div class="row div-one__row">
             <div class="img-fluid col-md-3 div-one__row__col_one">
-            <img  src="./images/parasuit.png"  class="img-fluid " alt="">
+            <img  src="./images/parasuit.png" alt="">
             </div>
             <div class="col-md-9 div-one__row__col-two">
                     <div class="div-one__row__col-two__logo-text">
@@ -62,28 +48,31 @@
                             entegrasyon ve lojistik servislerinden oluşan bir bütünüdür.
                         </p>
                     </div>
+                    <div class="row  div-one__row__col-two__image ">
+                        <img  src="./images/parasuit.png" alt="">
+                    </div>
                     <div class="div-one__row__col-two__headline">
                         <p >500 milyon müşteri bir tık mesafede!</p>
                     </div>
-                <div class="div-one__row__col-two__headline-text">
-                    <p>
-                        İnternet ticaretin doğasını değiştirdi. Pazaryerleri ve sosyal medya müşterilerle temas ve ürünlere
-                        dokunma noktası oldu.Ürün ve hizmetlerini web'de doğru kataloglamayan, dijital olarak zenginleştirmeyenler,
-                        pazaryerlerine entegre olmayanlar kalıcı pazar kayıpları yaşıyorlar. Watalogy bilimsel yöntemler ile
-                        ürünleri katalogluyor, dijital olarak zenginleştiriyor, küresel pazaryerlerine entegre ediyor,
-                        lojistik süreçlerini yöneterek ürünleri müşteriye ulaştırıyor. Siz de ticaretin yeni rotası
-                        pazaryerlerinin yüksek talep gücünden yararlanın. Harcama gücü yüksek bireysel ve kurumsal
-                        müşterilere erişin. <span style="font-weight: bold;">Bilimin gücü yeni nesil ticaretin emrinde.</span>
-                    </p>
-                </div>
+                    <div class="div-one__row__col-two__headline-text">
+                        <p>
+                            İnternet ticaretin doğasını değiştirdi. Pazaryerleri ve sosyal medya müşterilerle temas ve ürünlere
+                            dokunma noktası oldu.Ürün ve hizmetlerini web'de doğru kataloglamayan, dijital olarak zenginleştirmeyenler,
+                            pazaryerlerine entegre olmayanlar kalıcı pazar kayıpları yaşıyorlar. Watalogy bilimsel yöntemler ile
+                            ürünleri katalogluyor, dijital olarak zenginleştiriyor, küresel pazaryerlerine entegre ediyor,
+                            lojistik süreçlerini yöneterek ürünleri müşteriye ulaştırıyor. Siz de ticaretin yeni rotası
+                            pazaryerlerinin yüksek talep gücünden yararlanın. Harcama gücü yüksek bireysel ve kurumsal
+                            müşterilere erişin. <span style="font-weight: bold;">Bilimin gücü yeni nesil ticaretin emrinde.</span>
+                        </p>
+                    </div>
             </div>
         </div>
     </div>
 
     <div class="container watalogy-services" style="position: relative;">
-            <img class="img-fluid d-none d-sm-block watalogy-services__img-path path pathimg" src="./images/path.png" alt="">
+            <img class="img-fluid  watalogy-services__img-path path pathimg" src="./images/path.png" alt="">
             <div class="row justify-content-center watalogy-services__header-2 mx-5 ">
-                <p>Watalogy ile sağlam adımlarla küresel e-ticaretin parçası olun. <p>
+                <p class="watalogy-services__header-2__text">Watalogy ile sağlam adımlarla küresel e-ticaretin parçası olun. <p>
             </div>
             
             <!-- 1. -->
