@@ -4,7 +4,8 @@
 }
 
 .div-one__row__col_one {
-  background-color: #adadd4;
+  background-color: white;
+  margin-top: 100px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -29,7 +30,7 @@
 
 .div-one__row__col-two {
   padding: 50px 50px 0 50px;
-  background-color: #d2d2f7;
+  background-color: white;
   color: #f8dda1;
 }
 
@@ -84,6 +85,7 @@
   line-height: 2rem;
   color: #01B348;
   border-radius: nullpx;
+  padding-bottom: 40px;
 }
 
 .watalogy-services {
@@ -2145,13 +2147,11 @@
 }
 
 .watalogy-marketplace__rows-one__cols-three__wayfair-img {
-  border: 2px solid red;
   width: 190px;
   height: 92px;
 }
 
 .watalogy-marketplace__rows-one__cols-four__houzz-img {
-  border: 2px solid red;
   width: 259px;
   height: 77px;
   margin: auto;
