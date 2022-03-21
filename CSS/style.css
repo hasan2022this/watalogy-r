@@ -2140,14 +2140,35 @@
   height: 110px;
 }
 
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-one__cols-one__amazon-img {
+    width: 200px;
+    height: 89px;
+  }
+}
+
 .watalogy-marketplace__rows-one__cols-two__etsy-img {
   width: 162px;
   height: 77px;
 }
 
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-one__cols-two__etsy-img {
+    width: 120px;
+    height: 57px;
+  }
+}
+
 .watalogy-marketplace__rows-one__cols-three__wayfair-img {
   width: 190px;
   height: 92px;
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-one__cols-three__wayfair-img {
+    width: 120px;
+    height: 57px;
+  }
 }
 
 .watalogy-marketplace__rows-one__cols-four__houzz-img {
@@ -2197,12 +2218,52 @@
   height: 194px;
 }
 
+.watalogy-depo-support-footer {
+  padding: 0 12vw 5vw 12vw;
+  text-align: center;
+}
+
+.watalogy-depo-support-footer__header-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #01B348;
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-depo-support-footer__header-text {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+.watalogy-depo-support-footer__header-explanation-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 26px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-depo-support-footer__header-explanation-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
 .line {
   width: 100%;
 }
 
 .for-details {
   padding: 8vw;
+  text-align: center;
 }
 
 .for-details__one__p1 {
@@ -2215,6 +2276,13 @@
   color: black;
 }
 
+@media only screen and (max-width: 600px) {
+  .for-details__one__p1 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
+
 .for-details__two__p2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -2223,5 +2291,12 @@
   line-height: 33px;
   text-align: center;
   color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .for-details__two__p2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

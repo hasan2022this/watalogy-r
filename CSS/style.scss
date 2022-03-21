@@ -3,8 +3,7 @@ $text-color: #000000;
 $circle-color: #F27575;
 $inside-circle-text:#FFFCFC;
 
-@mixin text{
-    
+@mixin text{  
     font-weight: normal;
     font-size: 1.3rem;
     font-style: normal;
@@ -27,7 +26,7 @@ $inside-circle-text:#FFFCFC;
     color: $inside-circle-text;
   }
 
-  @mixin text-h2{
+@mixin text-h2{
     color: $headline-color;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -35,9 +34,9 @@ $inside-circle-text:#FFFCFC;
     font-style: normal;
     line-height: 2rem;
     border-radius: nullpx;
-  }
+}
 
-  @mixin text-h3{
+@mixin text-h3{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.563rem;
@@ -45,19 +44,18 @@ $inside-circle-text:#FFFCFC;
     line-height: 2rem;
     color: $text-color;
     border-radius: nullpx;
-  }
+}
 
-  @mixin adv-header-text {
-    color: $text-color;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    font-style: normal;
-    line-height: 35px;
-    border-radius: nullpx;
-    text-align: left
-      
-  }
+@mixin adv-header-text {
+color: $text-color;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 30px;
+font-style: normal;
+line-height: 35px;
+border-radius: nullpx;
+text-align: left   
+}
 
   @mixin adv-header-explanation-text{
     color: $text-color;
@@ -1385,24 +1383,31 @@ $inside-circle-text:#FFFCFC;
             &__amazon-img{
                 width: 247px;
                 height: 110px;
-                
-                
+                @media only screen and (max-width: 600px) {
+                    width: 200px;
+                    height: 89px;
+                    }
             }
         }
         &__cols-two{
             &__etsy-img{
                 width: 162px;
                 height: 77px;
-                
+                @media only screen and (max-width: 600px) {
+                    width: 120px;
+                    height: 57px;
+                    }
             }
 
         }
         &__cols-three{
-            &__wayfair-img{
-                
+            &__wayfair-img{ 
                 width: 190px;
                 height: 92px;
-                
+                @media only screen and (max-width: 600px) {
+                    width: 120px;
+                    height: 57px;
+                    }  
             }
         }
         &__cols-four{
@@ -1476,12 +1481,45 @@ $inside-circle-text:#FFFCFC;
     }
 }
 
+.watalogy-depo-support-footer{
+    padding: 0 12vw 5vw 12vw;
+    text-align: center;
+        &__header-text{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            color: #01B348;
+            @media only screen and (max-width: 600px) {
+                font-weight: bold;
+                font-size: 26px;
+                line-height: 30px;
+                }
+        }
+
+        &__header-explanation-text{ 
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 22px;
+            font-style: normal;
+            line-height: 26px;
+            color: $text-color;
+            @media only screen and (max-width: 600px) {
+                font-size: 18px;
+                line-height: 22px;
+                } 
+        } 
+}
+
 .line{
     width: 100%;
 }
 
 .for-details{
     padding: 8vw;
+    text-align: center;
     &__one{
         &__p1{
             font-family: 'Roboto', sans-serif;
@@ -1491,6 +1529,10 @@ $inside-circle-text:#FFFCFC;
             line-height: 38px;
             text-align: center;
             color: black;
+            @media only screen and (max-width: 600px) {
+                font-size: 22px;
+                line-height: 20px;
+                } 
         }
     }
     &__two{
@@ -1502,7 +1544,10 @@ $inside-circle-text:#FFFCFC;
             line-height: 33px;
             text-align: center;
             color: #000000;
-
+            @media only screen and (max-width: 600px) {
+                font-size: 16px;
+                line-height:18px;
+                } 
         }
     }
 }
