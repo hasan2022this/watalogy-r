@@ -1256,6 +1256,10 @@ text-align: left
                         height: 156px;
                         margin-top: 30%;
                         margin-bottom: 30%; 
+                        @media only screen and (max-width: 600px) {
+                            width: 79.699px;
+                            height: 100px;
+                        }
                     }
                 }
                 &__cols-two-texts{
@@ -1278,7 +1282,11 @@ text-align: left
                         margin-top: 30%;
                         margin-bottom: 30%;
                         width: 134px;
-                        height: 126px;  
+                        height: 126px;
+                        @media only screen and (max-width: 600px) {
+                            width: 70px;
+                            height: 65.82px;
+                        }  
                     }
                 }
                 &__cols-two-texts{
@@ -1305,6 +1313,10 @@ text-align: left
                         margin-bottom: 30%;
                         width: 133px;
                         height: 106px;
+                        @media only screen and (max-width: 600px) {
+                            width: 70px;
+                            height: 55.789px;
+                        }
                     }
                 }
                 &__cols-two-texts{
@@ -1328,6 +1340,10 @@ text-align: left
                         margin-bottom: 30%;
                         width: 133px;
                         height: 118px;
+                        @media only screen and (max-width: 600px) {
+                            width: 70px;
+                            height: 62.105px;
+                        }
                     }
                 }
                 &__cols-two-texts{
@@ -1352,6 +1368,7 @@ text-align: left
     margin-bottom: 100px;
     @media only screen and (max-width: 600px) {
         margin-bottom: 30px;
+        margin-top: 60px;
     }
     &__header{
         margin-bottom: 40px;
@@ -1359,6 +1376,9 @@ text-align: left
             &__left{
                 width: 44px;
                 height: 68px;
+            }
+            @media only screen and (max-width: 600px) {
+                display: none;
             }
         }
         .watalogy-marketplace__header-text{
@@ -1369,6 +1389,10 @@ text-align: left
             line-height: 53px;
             text-align: center;
             color: #000000;
+            @media only screen and (max-width: 600px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
             
         }
       
@@ -1377,6 +1401,9 @@ text-align: left
                 width: 41px;
                 height: 68px;
                 margin-bottom: 40px;
+                @media only screen and (max-width: 600px) {
+                    display: none;
+                }
             }
         }
     }
