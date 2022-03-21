@@ -1350,6 +1350,9 @@ text-align: left
 .watalogy-marketplace{
     margin-top: 100px;
     margin-bottom: 100px;
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 30px;
+    }
     &__header{
         margin-bottom: 40px;
         &__img-one{
@@ -1384,9 +1387,9 @@ text-align: left
                 width: 247px;
                 height: 110px;
                 @media only screen and (max-width: 600px) {
-                    width: 200px;
-                    height: 89px;
-                    }
+                    width: 150px;
+                    height: 66.80px;
+                }
             }
         }
         &__cols-two{
@@ -1405,19 +1408,20 @@ text-align: left
                 width: 190px;
                 height: 92px;
                 @media only screen and (max-width: 600px) {
-                    width: 120px;
-                    height: 57px;
+                    width: 150px;
+                    height: 72.63px;
                     }  
             }
         }
         &__cols-four{
             &__houzz-img{
-               
                 width: 259px;
-                height: 77px;
-                margin: auto;
-                display: block;
-                
+                height: 77px; 
+                @media only screen and (max-width: 600px) {
+                    width: 200px;
+                    height: 59.45px;
+                    margin-top: 6vw;
+                } 
             }
 
         }
@@ -1427,6 +1431,10 @@ text-align: left
             &__otto-img{
                 width: 169px;
                 height: 169px;
+                @media only screen and (max-width: 600px) {
+                    width: 120px;
+                    height: 120px;
+                } 
             }
             
         }
@@ -1434,48 +1442,78 @@ text-align: left
             &__zalando-img{
                 width: 221px;
                 height: 111px;
+                @media only screen and (max-width: 600px) {
+                    width: 140px;
+                    height: 70.32px;
+                } 
             }
 
         }
+
         &__cols-three{
             &__kaufland-img{
                 width: 116px;
                 height: 116px;
-                
+                @media only screen and (max-width: 600px) {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 4vw;
+                }    
             }
-
         }
+
         &__cols-four{
             &__ebay-img{
                 width: 169px;
-                height: 68px;   
+                height: 68px; 
+                @media only screen and (max-width: 600px) {
+                    width: 130px;
+                    height: 52.30px;
+                }   
             }
         }
     }
     &__rows-three{
         &__cols-one{
-            &__walmart-im{
+            &__walmart-img{
                 width: 226px;
-                height: 127px; 
+                height: 127px;
+                @media only screen and (max-width: 600px) {
+                    width: 140px;
+                    height: 78.67px;
+                    margin-top: 8vw;
+                }
             }
         }
         &__cols-two{
             &__hepsiburda-img{
                 width: 141px;
-                height: 141px;      
+                height: 141px; 
+                @media only screen and (max-width: 600px) {
+                    width: 100px;
+                    height: 100px;
+                }     
             }
-
         }
         &__cols-three{
             &__trendyol-img{
                 width: 193px;
                 height: 63px;
+                @media only screen and (max-width: 600px) {
+                    width: 130px;
+                    height: 42.435px;
+                }  
             }
         }
         &__cols-four{
             &__n11-img{
                 width: 259px;
                 height: 194px;
+                @media only screen and (max-width: 600px) {
+                    width: 160px;
+                    height: 119.845px;
+                    margin-top: 2vw;
+                }  
             }
         }
     }

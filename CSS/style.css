@@ -2110,6 +2110,12 @@
   margin-bottom: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace {
+    margin-bottom: 30px;
+  }
+}
+
 .watalogy-marketplace__header {
   margin-bottom: 40px;
 }
@@ -2142,8 +2148,8 @@
 
 @media only screen and (max-width: 600px) {
   .watalogy-marketplace__rows-one__cols-one__amazon-img {
-    width: 200px;
-    height: 89px;
+    width: 150px;
+    height: 66.80px;
   }
 }
 
@@ -2166,16 +2172,22 @@
 
 @media only screen and (max-width: 600px) {
   .watalogy-marketplace__rows-one__cols-three__wayfair-img {
-    width: 120px;
-    height: 57px;
+    width: 150px;
+    height: 72.63px;
   }
 }
 
 .watalogy-marketplace__rows-one__cols-four__houzz-img {
   width: 259px;
   height: 77px;
-  margin: auto;
-  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-one__cols-four__houzz-img {
+    width: 200px;
+    height: 59.45px;
+    margin-top: 6vw;
+  }
 }
 
 .watalogy-marketplace__rows-two__cols-one__otto-img {
@@ -2183,9 +2195,23 @@
   height: 169px;
 }
 
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-two__cols-one__otto-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 .watalogy-marketplace__rows-two__cols-two__zalando-img {
   width: 221px;
   height: 111px;
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-two__cols-two__zalando-img {
+    width: 140px;
+    height: 70.32px;
+  }
 }
 
 .watalogy-marketplace__rows-two__cols-three__kaufland-img {
@@ -2193,14 +2219,37 @@
   height: 116px;
 }
 
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-two__cols-three__kaufland-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 4vw;
+  }
+}
+
 .watalogy-marketplace__rows-two__cols-four__ebay-img {
   width: 169px;
   height: 68px;
 }
 
-.watalogy-marketplace__rows-three__cols-one__walmart-im {
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-two__cols-four__ebay-img {
+    width: 130px;
+    height: 52.30px;
+  }
+}
+
+.watalogy-marketplace__rows-three__cols-one__walmart-img {
   width: 226px;
   height: 127px;
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-three__cols-one__walmart-img {
+    width: 140px;
+    height: 78.67px;
+    margin-top: 8vw;
+  }
 }
 
 .watalogy-marketplace__rows-three__cols-two__hepsiburda-img {
@@ -2208,14 +2257,36 @@
   height: 141px;
 }
 
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-three__cols-two__hepsiburda-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .watalogy-marketplace__rows-three__cols-three__trendyol-img {
   width: 193px;
   height: 63px;
 }
 
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-three__cols-three__trendyol-img {
+    width: 130px;
+    height: 42.435px;
+  }
+}
+
 .watalogy-marketplace__rows-three__cols-four__n11-img {
   width: 259px;
   height: 194px;
+}
+
+@media only screen and (max-width: 600px) {
+  .watalogy-marketplace__rows-three__cols-four__n11-img {
+    width: 160px;
+    height: 119.845px;
+    margin-top: 2vw;
+  }
 }
 
 .watalogy-depo-support-footer {
