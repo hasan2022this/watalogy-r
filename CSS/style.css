@@ -2183,6 +2183,7 @@
 .watalogy-marketplace__header__img-one__left {
   width: 44px;
   height: 68px;
+  margin-left: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -2263,8 +2264,8 @@
 
 @media only screen and (max-width: 600px) {
   .watalogy-marketplace__rows-one__cols-four__houzz-img {
-    width: 200px;
-    height: 59.45px;
+    width: 180px;
+    height: 53.513px;
     margin-top: 6vw;
   }
 }
