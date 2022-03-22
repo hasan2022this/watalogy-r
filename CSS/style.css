@@ -11,6 +11,30 @@
   bottom: 0;
 }
 
+.headline__row-one__watalogy-logo {
+  max-width: 333px;
+  margin: 1vw 0 1vw 5vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .headline__row-one__watalogy-logo {
+    max-width: 150px;
+    margin: 2vw 0 1vw 5vw;
+  }
+}
+
+.headline__row-one__workcube-logo {
+  max-width: 120px;
+  margin: 1vw 5vw 1vw 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .headline__row-one__workcube-logo {
+    max-width: 50px;
+    margin: 2vw 5vw 1vw 0;
+  }
+}
+
 .div-one {
   width: 100%;
   background-color: white;
