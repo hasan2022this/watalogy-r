@@ -592,6 +592,7 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
+  max-width: 700px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -834,6 +835,7 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -30px;
+  max-width: 550px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -1136,6 +1138,7 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -150px;
+  max-width: 500px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -1405,6 +1408,7 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -40px;
+  max-width: 700px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -1565,6 +1569,7 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -60px;
+  max-width: 550px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -1725,6 +1730,7 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -280px;
+  max-width: 500px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -1975,6 +1981,7 @@
   border-radius: nullpx;
   margin-top: -15px;
   margin-left: -250px;
+  max-width: 700px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -2039,6 +2046,7 @@
   line-height: 28px;
   border-radius: nullpx;
   text-align: left;
+  max-width: 450px;
 }
 
 .watalogy-advantages__rows-one__cols-two__rows__cols-one-images__two {
@@ -2080,6 +2088,7 @@
   line-height: 28px;
   border-radius: nullpx;
   text-align: left;
+  max-width: 450px;
 }
 
 .watalogy-advantages__rows-two__cols-one__rows__cols-one-images__one {
@@ -2121,6 +2130,13 @@
   line-height: 28px;
   border-radius: nullpx;
   text-align: left;
+  max-width: 350px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .watalogy-advantages__rows-two__cols-one__rows__cols-two-texts__header-explanation-text {
+    max-width: 344px;
+  }
 }
 
 .watalogy-advantages__rows-two__cols-two__rows__cols-one-images__two {
@@ -2162,6 +2178,7 @@
   line-height: 28px;
   border-radius: nullpx;
   text-align: left;
+  max-width: 450px;
 }
 
 .watalogy-marketplace {
