@@ -956,7 +956,8 @@
   line-height: 2rem;
   color: #000000;
   border-radius: nullpx;
-  margin-left: -130px;
+  margin-left: -180px;
+  margin-top: -70px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -964,18 +965,21 @@
 @media only screen and (max-width: 600px) {
   .watalogy-services__rows-seven__text-seven__text-header {
     margin-left: 0px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .watalogy-services__rows-seven__text-seven__text-header {
     margin-left: 0px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .watalogy-services__rows-seven__text-seven__text-header {
     margin-left: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -987,7 +991,8 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
-  margin-left: -130px;
+  margin-left: -180px;
+  max-width: 400px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -1534,7 +1539,7 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: 50px;
-  margin-left: -60px;
+  margin-left: -90px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
 }
@@ -1568,7 +1573,7 @@
   color: #000000;
   border-radius: nullpx;
   margin-top: -15px;
-  margin-left: -60px;
+  margin-left: -90px;
   max-width: 550px;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   /* Medium devices (landscape tablets, 768px and up) */
@@ -2046,7 +2051,7 @@
   line-height: 28px;
   border-radius: nullpx;
   text-align: left;
-  max-width: 450px;
+  max-width: 480px;
 }
 
 .watalogy-advantages__rows-one__cols-two__rows__cols-one-images__two {
@@ -2130,12 +2135,12 @@
   line-height: 28px;
   border-radius: nullpx;
   text-align: left;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
   .watalogy-advantages__rows-two__cols-one__rows__cols-two-texts__header-explanation-text {
-    max-width: 344px;
+    max-width: 3px;
   }
 }
 

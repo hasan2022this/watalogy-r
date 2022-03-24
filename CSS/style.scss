@@ -638,24 +638,29 @@ text-align: left
             margin-top:20px;
             &__text-header{
                 @include text-h3();
-                margin-left: -130px;
+                margin-left: -180px;
+                margin-top:-70px;
                 @media only screen and (max-width: 600px) {
                     margin-left: 0px;
+                    margin-top:0px;
                 }
                 /* Small devices (portrait tablets and large phones, 600px and up) */
                 @media only screen and (max-width: 600px) {
                     margin-left: 0px;
+                    margin-top:0px;
                 }
                 /* Medium devices (landscape tablets, 768px and up) */
                 @media only screen and (max-width: 768px) {
                     margin-left: 0px;
+                    margin-top:0px;
                 } 
                  
             }
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
-                margin-left: -130px;
+                margin-left: -180px;
+                max-width: 400px;
                 @media only screen and (max-width: 600px) {
                     margin-left: 0px;
                 }
@@ -975,7 +980,7 @@ text-align: left
             &__text-header{
                 @include text-h3(); 
                 margin-top:50px;
-                margin-left: -60px;
+                margin-left: -90px;
                 
                 @media only screen and (max-width: 600px) {
                     margin-left: 0px;
@@ -996,7 +1001,7 @@ text-align: left
             &__text-header-explanation{
                 @include text(); 
                 margin-top:-15px;
-                margin-left: -60px;
+                margin-left: -90px;
                 max-width: 550px;
                 @media only screen and (max-width: 600px) {
                     margin-left: 0px;   
@@ -1309,7 +1314,7 @@ text-align: left
                     }
                     &__header-explanation-text{
                         @include adv-header-explanation-text;
-                        max-width: 450px;
+                        max-width: 480px;
                     }
                 }
             }
@@ -1367,9 +1372,9 @@ text-align: left
                     }
                     &__header-explanation-text{
                         @include adv-header-explanation-text;
-                        max-width: 350px;
+                        max-width: 400px;
                         @media only screen and (max-width: 1200px) {
-                            max-width: 344px;
+                            max-width: 3px;
                         }
                     }
                 }
